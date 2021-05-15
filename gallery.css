@@ -1,0 +1,103 @@
+body{
+    background-color: grey;
+    padding-left: 50px;
+    
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+    
+}
+.column{
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+nav ul a{
+    text-decoration: none;
+    
+    
+
+}
+nav ul{
+    list-style:none ;
+    float:left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color:rgb(128, 0, 79) ;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100;
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 50%;
+}
+a{
+
+    color: rgb(128, 0, 79);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-style: italic;
+     font-size: 16px;
+     font-weight: bold;
+     text-align: center;
+     margin-left: 11%;
+     
+
+
+}
+ a:hover{
+    background-color:rgba(255, 192, 203, 0.938);
+     cursor: pointer; 
+}
+#image1{
+    padding-top: 15%;
+    padding-left: 10%;
+    size: cover;
+
+}
+ #image2{
+    padding-top: 15%; 
+    padding-right: 40%;
+    size: cover;
+
+} 
+#image3{
+padding-top: 10% ;
+padding-left: 10%;
+size: cover;
+margin-bottom: 3%;
+
+}
+#image4{
+    padding-top:5% ;
+    padding-right:40%;
+    size: cover;
+    margin-bottom: 5%;
+    
+    }
+#image5{
+     padding-left: 10%;
+     margin-bottom: 5%;
+     size: cover;
+     
+}   
+#image6{
+    padding-right: 80%;
+     margin-bottom: 5%;
+     size: cover;
+     
+    
+} 
+
+    
+    
+     
+
+
